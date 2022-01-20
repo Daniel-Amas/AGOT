@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery of Ontario Tech</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="about-head">
+        <header id="nav-bar">
+            <div class="flex2">
+                <div class="navBar">
+                    <div class="logo-img">
+                        <a href="index.php"><img src="images/Logo.png" alt="" class="logo-image"></a>
+                    </div>
+                    <ul class="nav-links-lists">
+                        <li class="nav-links">
+                            <a href="index.php" class="nav-link-anchors">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="about.php" class="nav-link-anchors">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="#" class="nav-link-anchors current-page">
+                                Exhibitions
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="tickets.html" class="nav-link-anchors">
+                                Tickets
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="index.php#contact" class="nav-link-anchors">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="page__title">
+            <h1>Exhibitions</h1>
+            <h3>Home/<span class="page">Exhibitions</span></h3>
+        </div>
+        <div class="curve">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- ========================================================================================================================================================================= -->
+    <section id="exhibition-body" class="column">
+        <div class="page-view-container">
+            <div id="charlie-page-btn" class="page-view card">
+                <span class="exhibition__date">Dec 21, 2021</span>
+                <h3>Charlie Jackson</h3>
+                <p>Staying humble after finding recognition.</p>
+            </div>
+            <div id="woodrow-page-btn" class="page-view card">
+                <span class="exhibition__date">Nov 20, 2021</span>
+                <h3>Woodrow Finnegan</h3>
+                <p>Travelling the world inspires his work.</p>
+            </div>
+            <div id="selena-page-btn" class="page-view card">
+                <span class="exhibition__date">Jan 2, 2022</span>
+                <h3>Selena Rosales</h3>
+                <p>A mélange of contrasting tactile surfaces.</p>
+            </div>
+        </div>
+        <div id="charlie-page">
+            <div class="exhibit-banner">
+                <figure class="exhibit-banner-img-container">
+                    <img src="./images/Assets Charlie/Before.png" alt="" class="exhibit-banner-img" onmouseover="this.src='./images/Assets Charlie/After.png'" onmouseout="this.src='./images/Assets Charlie/Before.png'">
+                </figure>
+            </div>
+            <span class="current-date">Dec 01, 2021</span>
+            <h3>Staying humble after finding recognition.</h3>
+            <p>Charlie Jackson has inspired many other artists with his inventive and curious approach to the landscape and human form. An Archibald Prize winner, educator and respected painter, his contribution to Canada’s visual culture has been enormous. He creates about his colourful life and career – the rainforest, the permutations of the art world, the primality of painting and the experience of growing older.</p>
+			<p>Taking the long historical view that this early reading allowed, Jackson's creative and other professional practices push back against many of the ideas bequeathed to us by socio-economic  – if not always artistic – modernity.</p>
+            <div class="exhibit-art-grid">
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Charlie/Cart1.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Charlie/Cart2.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Charlie/Cart3.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Charlie/Cart4.png" alt="" class="exhibit-art">
+                </figure>
+            </div>
+        </div>
+        <div class="exhibit-art-modal" onclick="exitModal()">
+            <figure class="popup-image-container">
+                <img src="./images/Assets Charlie/Cart1.png" alt="" class="popup-image">
+            </figure>
+        </div>
+        <div id="woodrow-page">
+            <div class="exhibit-banner">
+                <figure class="exhibit-banner-img-container">
+                    <img src="./images/Assets Woodrow/Before.png" alt="" class="exhibit-banner-img" onmouseover="this.src='./images/Assets Woodrow/After.png'" onmouseout="this.src='./images/Assets Woodrow/Before.png'">
+                </figure>
+            </div>
+            <span class="current-date">Dec 03, 2021</span>
+            <h3>Travelling the world inspires his work</h3>
+            <p>Woodrow Finnegan is best known for his kaleidoscopic paintings and recently his sculptures, animations, and public art that employ traditional patterns with op-art sensibility, enlivened with glitter and dazzling colour. He was fresh out of art school when he left Auckland for Aviz, France, in 1997, to participate in the esteemed Moët & Chandon Arts Fellowship. Living on the outskirts of Paris in a crumbling chateau, he cycled to the station at any opportunity to journey to the city and visit the museums and galleries.</p>
+            <div class="exhibit-art-grid">
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Woodrow/Wart1.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Woodrow/Wart2.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Woodrow/Wart3.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Woodrow/Wart4.png" alt="" class="exhibit-art">
+                </figure>
+            </div>
+        </div>
+        <div id="selena-page">
+            <div class="exhibit-banner">
+                <figure class="exhibit-banner-img-container">
+                    <img src="./images/Assets Selena/Before.png" alt="" class="exhibit-banner-img" onmouseover="this.src='./images/Assets Selena/After.png'" onmouseout="this.src='./images/Assets Selena/Before.png'">
+                </figure>
+            </div>
+            <span class="current-date">Dec 03, 2021</span>
+            <h3>A mélange of contrasting tactile surfaces</h3>
+            <p>The art of Selena Rosales could be described as a stylized medley of uplifting visual narratives and poetry in visual form. Her vibrant symbolic paintings evoke feelings of sensuality, love, unity, hope, fertility and eternity. In one series, nude male and female figures embrace each other enveloped in a graceful and continuous undulating design. In other paintings, figures dance among a joyful rhythmic display of flora and fauna and illuminate our symbiotic bond with nature.</p>
+
+			<p>Rosales' beautifully orchestrated compositions are enhanced in breadth and depth by her versatile use of colors, a mélange of contrasting tactile surfaces, and acute spatial perception. Stimulating elements of fantasy and reality are wedded in perfect harmony and balance.</p>
+
+			<p>Although at first glance Rosales' lyrical style may recall that of Symbolism, she expresses her own contemporary artistic vocabulary imbued with life-affirming metaphorical imagery.</p>
+            <div class="exhibit-art-grid">
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Selena/Sart1.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Selena/Sart2.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Selena/Sart3.png" alt="" class="exhibit-art">
+                </figure>
+                <figure class="exhibit-art-container">
+                    <img src="./images/Assets Selena/Sart4.png" alt="" class="exhibit-art">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================================================================================================================================================= -->
+    <footer class="footer__container">
+        <div class="footer__grid">
+            <div class="footer__about">
+                <div class="logo-img">
+                    <a href="#"><img src="images/Logo.png" alt="" class="logo-image"></a>
+                </div>
+                <p>AGOT houses original, creative and expressive artworks, with the help of the team at ADDJ.</p>
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__header">Links</h3>
+                <ul>
+					<li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="#">Exhibitions</a></li>
+					<li><a href="tickets.html">Tickets</a></li>
+					<li><a href="index.php#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h3 class="footer__header">Contact Info</h3>
+                <ul>
+                    <li>Phone: 905-721-8668</li>
+                    <li>Email: <a href="mailto:AGOT@addj.com" class="email">AGOT@addj.com</a></li>
+                    <li>Address: AGOT, Inc. 2000 Simcoe St N,<br>Oshawa, ON L1G 0C5</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__header">Social Media</h3>
+                <div class="socials">
+                    <a href="https://www.facebook.com/ontariotechu/"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/ontariotech_u"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/ontariotechu/"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <span class="copyright"> &copy; By ADDJ All Rights Reserved AGOT 2021</span>
+    </footer>
+    <script>
+        document.querySelectorAll('.exhibit-art-grid figure img').forEach(image =>{
+           image.onclick = () => {
+               document.querySelector('.exhibit-art-modal').style.display = 'block';
+               document.querySelector('.exhibit-art-modal figure img').src = image.getAttribute('src');
+           }
+        })
+        function exitModal(){
+            document.querySelector('.exhibit-art-modal').style.display = 'none';
+        }
+        let charlie = document.getElementById('charlie-page-btn');
+        let woodrow = document.getElementById('woodrow-page-btn');
+        let selena = document.getElementById('selena-page-btn');
+        let c = document.getElementById('charlie-page');
+        let w = document.getElementById('woodrow-page');
+        let s = document.getElementById('selena-page');
+
+
+        charlie.addEventListener("click", function(){
+            if(c.style.display === "none" || w.style.display === "" || s.style.display === ""){
+                c.style.display = 'block';
+                w.style.display = 'none';
+                s.style.display = 'none';
+                charlie.classList.add("current-exhibit-page")
+                charlie.style.backgroundImage = 'url("./images/Assets Charlie/Button_C.png")';
+                woodrow.classList.remove("current-exhibit-page")
+                woodrow.style.backgroundImage = 'none';
+                selena.classList.remove("current-exhibit-page")
+                selena.style.backgroundImage = 'none';
+            }
+            else{
+                c.style.display = 'none';
+                charlie.classList.remove("current-exhibit-page")
+                charlie.style.backgroundImage = 'none';
+                woodrow.classList.remove("current-exhibit-page")
+                woodrow.style.backgroundImage = 'none';
+                selena.classList.remove("current-exhibit-page")
+                selena.style.backgroundImage = 'none';
+            }
+        })
+        woodrow.addEventListener("click", function(){
+            if(c.style.display === "" || w.style.display === "none" || s.style.display === ""){
+                c.style.display = 'none';
+                w.style.display = 'block';
+                s.style.display = 'none';
+                woodrow.classList.add("current-exhibit-page")
+                woodrow.style.backgroundImage = 'url("./images/Assets Woodrow/Button_W.png")';
+                charlie.classList.remove("current-exhibit-page")
+                charlie.style.backgroundImage = 'none';
+                selena.classList.remove("current-exhibit-page")
+                selena.style.backgroundImage = 'none'
+            }
+            else{
+                w.style.display = 'none';
+                charlie.classList.remove("current-exhibit-page")
+                charlie.style.backgroundImage = 'none';
+                woodrow.classList.remove("current-exhibit-page")
+                woodrow.style.backgroundImage = 'none';
+                selena.classList.remove("current-exhibit-page")
+                selena.style.backgroundImage = 'none';
+            }
+        })
+        selena.addEventListener("click", function(){
+            if(c.style.display === "" || w.style.display === "" || s.style.display === "none"){
+                c.style.display = 'none';
+                w.style.display = 'none';
+                s.style.display = 'block';
+                selena.classList.add("current-exhibit-page")
+                selena.style.backgroundImage = 'url("./images/Assets Selena/Button_S.png")';
+                charlie.classList.remove("current-exhibit-page")
+                charlie.style.backgroundImage = 'none';
+                woodrow.classList.remove("current-exhibit-page")
+                woodrow.style.backgroundImage = 'none';
+            }
+            else{
+                s.style.display = 'none';
+                charlie.classList.remove("current-exhibit-page")
+                charlie.style.backgroundImage = 'none';
+                woodrow.classList.remove("current-exhibit-page")
+                woodrow.style.backgroundImage = 'none';
+                selena.classList.remove("current-exhibit-page")
+                selena.style.backgroundImage = 'none';
+            }
+        })
+    </script>
+</body>
+</html>
